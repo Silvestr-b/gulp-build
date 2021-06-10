@@ -1,0 +1,22 @@
+@import '../../utils/global';
+@import '../../utils/variables';
+@import '../../utils/mixins';
+
+.header {
+  height: 50px;
+  background: url("./assets/background.png");
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header__text {
+  @include size($mobile) {
+    color: $header-color-mobile;
+  }
+  @include size($tablet) {
+    color: $header-color-tablet;
+  }
+  @include size($desktop) {
+    color: $header-color-desktop;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "gulp-build",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^6.0.0",
+    "through2": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "gulp"
+  }
+}
